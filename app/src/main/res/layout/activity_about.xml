@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aansanwar.csramenkita.AboutActivity">
+
+    <TextView
+        android:layout_width="383dp"
+        android:layout_height="41dp"
+        android:text="Tentang"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:id="@+id/textView3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ramenicon11"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="374dp"
+        android:layout_height="95dp"
+        android:text="Ramen Kita VCS adalah Aplikasi Virtual Customer Service untuk memberikan pelayanan kepada pelangga Ramen Kita yang bersifat interaktif, dilengkapi dengan menu ke akun sosial media serta kontak untuk memudahkan order"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="77dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ibm"
+        android:layout_marginTop="28dp"
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi ini menggunakan layanan IBM Bluemix / Watson Conversation"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+</RelativeLayout>

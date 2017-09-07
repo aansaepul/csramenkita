@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/facebookk"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/nav_Instagram"
+            android:icon="@drawable/instagramm"
+            android:title="Instagram" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/mapmarker"
+            android:title="Lokasi" />
+    </group>
+
+    <item android:title="Pesanan">
+        <menu>
+            <item
+                android:id="@+id/nav_wa"
+                android:icon="@drawable/whatsapp"
+                android:title="Whatsapp" />
+            <item
+                android:id="@+id/nav_telepon"
+                android:icon="@drawable/phone"
+                android:title="Telepon" />
+            <item
+                android:id="@+id/nav_gojek"
+                android:icon="@drawable/gofood"
+                android:title="Go-Food" />
+        </menu>
+    </item>
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_ttg"
+                android:icon="@drawable/ramen"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
